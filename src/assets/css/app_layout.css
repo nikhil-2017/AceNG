@@ -1,0 +1,55 @@
+.app-wrapper .app-topbar {
+  position: fixed;
+  height: 4rem;
+  top: 0;
+  width: 100%;
+  border-bottom: 1px solid var(--surface-border);
+  background-color: var(--surface-ground);
+}
+
+.app-topbar-inner .topbar-items {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.app-wrapper .app-content {
+  margin-top: 6rem;
+}
+
+@media (max-width: 576px) {
+  .app-wrapper .app-content {
+    margin: 10px;
+    margin-bottom: 6rem;
+  }
+}
+
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+}
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+@media (min-width: 992.98px) {
+  .container {
+    max-width: 960px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+}
+@media (min-width: 1400px) {
+  .container {
+    max-width: 1320px;
+  }
+}

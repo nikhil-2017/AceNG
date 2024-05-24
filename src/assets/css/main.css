@@ -1,9 +1,11 @@
 @import url('fonts/Inter.css');
+@import url('app_layout.css');
 @import url('link.css');
 
 body {
   font-family: 'Inter';
   font-weight: normal;
+  margin: 0;
 }
 
 @media (min-width: 576px) {
@@ -40,4 +42,18 @@ body {
 .img-fluid {
   max-width: 100%;
   height: auto;
+}
+
+.ace-ng-card {
+  font-size: 16px;
+}
+
+.company-name {
+  color: #000;
+  background-color: var(--surface-200);
+}
+
+.description {
+  color: var(--text-color-secondary);
+  margin-bottom: 0.5rem;
 }
